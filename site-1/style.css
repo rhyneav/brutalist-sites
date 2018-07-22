@@ -1,0 +1,19 @@
+/* Reset body styles. Feel free to use normalize.css instead! */
+/* Also use a monospace font to be a really cool kid */
+body {
+    margin: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+/* Place div on top by giving an absolute position */
+div {
+    position: absolute;
+    background: white;
+    top: 0;
+    left: 0;
+    padding: 16px;
+    max-width: 400px;
+    margin: 50px;
+}

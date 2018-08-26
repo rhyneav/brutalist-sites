@@ -38,11 +38,11 @@ header .titles p {
   margin-top: 30px;
   font-size: 16px;
   line-height: 36px;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.9);
 }
 header h3 {
   position: absolute;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.85);
 }
 header h3:nth-child(1) {
   animation: wobble 4.5s infinite;
@@ -52,7 +52,7 @@ header h3:nth-child(1) {
 }
 header a {
   position: absolute;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.9);
   text-decoration: none;
 }
 header a:nth-child(2) {

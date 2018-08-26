@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: local('NanumGothic'), url(https://fonts.gstatic.com/s/nanumgothic/v9/PN_3Rfi-oW3hYwmKDpxS7F_D-djb.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 800;
+  src: local('NanumGothic ExtraBold'), local('NanumGothic-ExtraBold'), url(https://fonts.gstatic.com/s/nanumgothic/v9/PN_oRfi-oW3hYwmKDpxS7F_LXv7LyVsj.ttf) format('truetype');
+}
+strong {
+  font-weight: 800;
+}
+#particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+header {
+  height: 100vh;
+  background: linear-gradient(-45deg, #03A9F4 0%, #01579B 100%);
+  font-family: 'Nanum Gothic', sans-serif;
+}
+header .titles {
+  max-width: 600px;
+  padding: 160px;
+}
+header .titles h1 {
+  color: #fff;
+  font-size: 56px;
+}
+header .titles p {
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.8);
+}
+header h3 {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.75);
+}
+header h3:nth-child(1) {
+  animation: wobble 4.5s infinite;
+  bottom: 450px;
+  right: 60px;
+  font-size: 22px;
+}
+header a {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+header a:nth-child(2) {
+  animation: wobble 7s infinite;
+  bottom: 340px;
+  right: 260px;
+  font-size: 26px;
+}
+header a:nth-child(3) {
+  animation: wobble 6s infinite;
+  bottom: 370px;
+  right: 50px;
+  font-size: 26px;
+}
+header a:nth-child(4) {
+  animation: wobble 5s infinite;
+  bottom: 190px;
+  right: 280px;
+  font-size: 28px;
+}
+header a:nth-child(5) {
+  animation: wobble 7.5s infinite;
+  bottom: 200px;
+  right: 40px;
+  font-size: 28px;
+}
+header a:nth-child(6) {
+  animation: wobble 6.5s infinite;
+  bottom: 50px;
+  right: 270px;
+  font-size: 30px;
+}
+header a:nth-child(7) {
+  animation: wobble 5.5s infinite;
+  bottom: 40px;
+  right: 30px;
+  font-size: 30px;
+}

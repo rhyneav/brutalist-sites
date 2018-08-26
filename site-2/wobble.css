@@ -1,0 +1,21 @@
+@-webkit-keyframes wobble {
+  0% {
+    -webkit-transform: rotate(-2deg) translate(-5px, -5px);
+            transform: rotate(-2deg) translate(-5px, -5px); }
+  50% {
+    -webkit-transform: rotate(1deg) translate(5px, 5px);
+            transform: rotate(1deg) translate(5px, 5px); }
+  100% {
+    -webkit-transform: rotate(-2deg) translate(-5px, -5px);
+            transform: rotate(-2deg) translate(-5px, -5px); } }
+
+@keyframes wobble {
+  0% {
+    -webkit-transform: rotate(-2deg) translate(-5px, -5px);
+            transform: rotate(-2deg) translate(-5px, -5px); }
+  50% {
+    -webkit-transform: rotate(1deg) translate(5px, 5px);
+            transform: rotate(1deg) translate(5px, 5px); }
+  100% {
+    -webkit-transform: rotate(-2deg) translate(-5px, -5px);
+            transform: rotate(-2deg) translate(-5px, -5px); } }
